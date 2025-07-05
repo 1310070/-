@@ -57,6 +57,22 @@ app.py: メインプログラム
 
 LCDやボタンの接続は、誤配線に注意してください
 
+実行例
+
+pi@raspberrypi:~/ex7 $ python3 app.py
+認識結果: 天気
+kitakataの気温: 32℃
+湿度: 59%
+LCD表示: deg : 32 hum : 59
+認識結果: 予定
+予定: 13:00 Valorant
+LCD表示: 13:00 Valorant 
+認識結果: 天気
+kitakataの気温: 32℃
+湿度: 59%
+LCD表示: deg : 32 hum : 59
+
+
 2025/07/05現在
 
 変更の可能性あり
