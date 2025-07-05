@@ -14,8 +14,8 @@ import os
 # --- 設定 ---
 BUTTON_PIN = 25
 SAMPLE_RATE = 16000
-CITY_NAME = "Kitakata,jp"
-API_KEY = "6808896b43bdea2cee436d362ec1623d"
+CITY_NAME = "Your city" #choose from OpenWeatherMap
+API_KEY = "Your API key" # copy and paste from OpenWeeatherMap
 LCD_ADDR = 0x3f
 
 # Google Calendar API用
